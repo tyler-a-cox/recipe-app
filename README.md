@@ -68,3 +68,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Database Schema
+
+Table: Recipe
+
+- id = 0
+- title = 'Pizza'
+- servings = 6
+- time = '54'
+- calories = '540'
+
+Table: Ingredients
+
+- id = 0
+- ingredient = 'flour'
+- amount = 2
+- measurement = 'cups'
+- recipe_id = 0
+
+- id = 1
+- ingredient = 'eggs'
+- amount = '3'
+- measurement = ''
+- recipe_id = 0
